@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/content.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/sign-in.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-row">
+                    <div class="logo">
+                        <img src="../logo.png" alt="logo">
+                    </div>
+<!--                    <nav class="nav">-->
+<!--                        <ul>-->
+<!--                            <li><a href="../index.html">ГОЛОВНА</a></li>-->
+<!--                            <li><a href="signUp.html">РЕЄСТРАЦІЯ</a></li>-->
+<!--                        </ul>-->
+<!--                    </nav>-->
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <form class="sign-up-form">
+                <div class="form-group email">
+                    <div class="email-name">
+                        <label for="email-name">E-mail і'мя *</label>
+                        <input type="text" class="form-control mb-2 mr-sm-2 emil-control" id="email-name" placeholder="jane.doe">
+                    </div>
+                    <div class="email-domen">
+                        <label for="email-domen">E-mail домен *</label>
+                        <div class="input-group mb-2 mr-sm-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">@</div>
+                            </div>
+                            <input type="text" class="form-control emil-control" id="email-domen" placeholder="gmail.com" value="gmail.com">
+                        </div>
+                    </div>
+                </div>
+                <div class="email-warnings warnings">
+                    <p class="email-name-warning warning">Введіть email ім'я.</p>
+                    <p class="email-domen-warning warning">Введіть email домен.</p>
+                </div>
+                <div class="form-group">
+                    <label for="password">Пароль *</label>
+                    <input type="password" class="form-control" id="password" placeholder="*********">
+                </div>
+                <div class="password-warnings warnings">
+                    <p class="password-required-warning warning">Введіть пароль.</p>
+                    <p class="password-length-warning warning">Введіть не менше 6-ти символів.</p>
+                </div>
+
+                <button type="button" class="btn btn-primary mb-2 submit" disabled>Відправити</button>
+            </form>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <h4>admin</h4>
+            </div>
+        </footer>
+    </div>
+
+    <script src="../js/validation/signIn.js"></script>
+    <script src="../js/admin/auth/signIn.js"></script>
+</body>
+</html>

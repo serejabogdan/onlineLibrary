@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/content.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/admin.panel.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-row">
+                    <div class="logo">
+                        <img src="../logo.png" alt="logo">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="panel">
+                <nav class="router">
+                    <ul>
+                        <li><a href="replaceBook.html" class="exit">Змінити книгу</a></li>
+                    </ul>
+                </nav>
+                <hr>
+                <div class="add-book-panel">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Назва книги</label>
+                            <input type="text" class="form-control" id="name" placeholder="Программист-прагматик. Чистый код.">
+                        </div>
+                        <div class="form-group">
+                            <label for="author">Автор</label>
+                            <input type="text" class="form-control" id="author" placeholder="Роберт Мартин">
+                        </div>
+                        <div class="form-group">
+                            <label for="year">Рік</label>
+                            <input type="text" class="form-control" id="year" placeholder="2003">
+                        </div>
+                        <div class="form-group">
+                            <label for="description">Опис книги</label>
+                            <input type="text" class="form-control" id="description" placeholder="Подход к улучшению структурной целостности и...">
+                        </div>
+                        <div class="form-group">
+                            <label for="img">Картинка</label>
+                            <input type="text" class="form-control" id="img" placeholder="https://sun1-22.userapi.com/ZUPDtVaDJE0sVbh9xE9HIp4Ctg1pApjeb7bvzA/18gkLSnimRo.jpg">
+                        </div>
+                        <div class="form-group">
+                            <label for="book">Опис книги</label>
+                            <input type="text" class="form-control" id="book" placeholder="../books/СовершенныйКод2010.pdf">
+                        </div>
+                        <button type="button" class="btn btn-primary submit">Додати</button>
+                        <div class="message">
+                            
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div>Панель додавання книги</div>
+            </div>
+        </footer>
+    </div>
+
+        <script src="../js/admin/handleBook/addBook.js"></script>
+
+<!--    <script src="../js/auth/exit.js"></script>-->
+<!--    <script src="../js/auth/guard.js"></script>-->
+</body>
+</html>

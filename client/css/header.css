@@ -1,0 +1,41 @@
+.header {
+    background-color: var(--bg);
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    min-width: 1300px;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 54px;
+}
+
+.logo img {
+    width: 100%;
+}
+.nav ul{
+    display: flex;
+    margin: 0 -10px 0 -10px;
+}
+
+.nav ul li {
+    list-style-type: none;
+    padding: 0 10px 0 10px;
+}
+
+.nav a {
+    color: #fff;
+}
+
+.active {
+    color: blue!important;
+}

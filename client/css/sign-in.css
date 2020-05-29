@@ -1,0 +1,35 @@
+.email {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    max-width: 340px;
+    background-color: #fff;
+
+    padding: 1em;
+    border-radius: 0.25em;
+}
+
+.main {
+    background-image: url('../imgs/sign-in-cat.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.warning {
+    color: darkred;
+    margin: 0;
+}
+
+.warnings {
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin: 0;
+}

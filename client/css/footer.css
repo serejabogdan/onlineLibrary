@@ -1,0 +1,10 @@
+.footer {
+    color: #fff;
+    background-color: var(--bg);
+
+}
+
+.footer div {
+    padding: .3em;
+    text-align: center;
+}

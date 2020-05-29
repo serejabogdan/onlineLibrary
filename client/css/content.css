@@ -1,0 +1,37 @@
+.search {
+    margin: 1em auto 0 auto;
+    width: 50%;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0 -1em 2em -1em;
+}
+
+.media {
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid #8de6f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    flex: 0 1 30%;
+
+    margin: 1em 1em 0 1em;
+}
+
+.media img {
+    max-width: 250px;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    margin: 0;
+}

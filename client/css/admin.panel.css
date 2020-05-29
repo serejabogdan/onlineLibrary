@@ -1,0 +1,28 @@
+body{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+}
+
+.panel {
+    width: 70%;
+    background: #fff;
+
+    padding: 1em;
+}
+
+.router ul {
+    display: flex;
+    list-style: none;
+}
+
+.router a {
+    text-decoration: none;
+    color: black;
+    padding: 0.25em;
+
+    transition: 1s;
+}
+
+.router a:hover {
+    border-bottom: 1px solid #3931af;
+}
+
